@@ -1,4 +1,3 @@
-# ems-backend
 ## Employee Scheduler API
 
 This project implements a backend API for managing employee schedules in a retail store chain. It allows for creating and managing employee information, defining shifts, and assigning shifts to employees based on availability and predicted customer traffic (to be implemented in the future).
@@ -56,14 +55,6 @@ This project implements a backend API for managing employee schedules in a retai
     * **Create a new shift:** `POST /shifts/` (data in JSON format)
 
 **Note:** Functionality for assigning shifts and retrieving employee schedules is planned for future development.
-
-### Testing
-
-This project currently lacks automated tests. It's recommended to implement unit tests for your views and serializers as you develop further functionalities.
-
-### License
-
-This project is licensed under the MIT License (see LICENSE file for details).
 
 ### Development Status
 
