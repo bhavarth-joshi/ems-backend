@@ -1,9 +1,21 @@
+from rest_framework import viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Employee, Shift
 from .serializers import EmployeeSerializer, ShiftSerializer
 
+
+
+class EmployeeViewSet(viewsets.ModelViewSet):
+  queryset = Employee.objects.all()
+  serializer_class = EmployeeSerializer
+
+class ShiftViewSet(viewsets.ModelViewSet):
+  queryset = Shift.objects.all()
+  serializer_class = ShiftSerializer
+
+"""
 
 class EmployeeListCreateView(APIView):
     def get(self, request):
@@ -42,3 +54,4 @@ class ShiftListCreateView(APIView):
     # ...
 
 # Similar views for assigning shifts and employee schedule retrieval can be added later
+"""
