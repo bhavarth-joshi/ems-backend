@@ -25,7 +25,7 @@ This project implements a backend API for managing employee schedules in a retai
 ### Installation
 
 1. **Prerequisites:** Ensure you have Python 3 and `pip` installed on your system.
-2. **Clone the repository:** Clone this repository using `git clone https://<your_repository_url>`.
+2. **Clone the repository:** Clone this repository using `git clone https://github.com/bhavarth-joshi/ems-backend.git`.
 3. **Create a virtual environment:**
    ```bash
    python3 -m venv venv
